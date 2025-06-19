@@ -1,0 +1,46 @@
+body {
+  font-family: "Noto Serif SC", serif;
+  background-color: #fefdf9;
+  color: #4B6A4B;
+  line-height: 1.8;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2em;
+}
+
+textarea, button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #bfcbb3;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+button {
+  margin-top: 1rem;
+  width: 100%;
+  display: block;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  background-color: #4B6A4B;       /* 墨绿色 */
+  color: #ffffff;                  /* 白字 */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-sizing: border-box;
+}
+
+
+button:hover {
+  background-color: #3e5d3e;       /* hover 更深一点 */
+}

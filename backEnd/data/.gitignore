@@ -1,0 +1,10 @@
+# 忽略 Python 相关
+__pycache__/
+*.pyc
+.env
+
+# 忽略 Node.js 前端相关
+node_modules/
+dist/
+build/
+.env.local

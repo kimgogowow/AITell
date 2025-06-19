@@ -1,0 +1,49 @@
+
+/* AIPage.css - AIç»“æžœé¡µä¸“å±žæ ·å¼ */
+
+.ai-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: "STSong", serif;
+  color: #4B6A4B;
+  text-align: center;
+}
+
+.ai-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ai-card {
+  border: 1px solid #4B6A4B;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  line-height: 1.8;
+  font-size: 16px;
+  text-align: left;
+}
+
+.ai-card h2 {
+  color: #2d4732;
+  margin-top: 16px;
+}
+
+.ai-card p {
+  margin: 8px 0;
+}
+
+.ai-button {
+  margin-top: 24px;
+  width: 100%;
+  padding: 12px;
+  background-color: #4B6A4B;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.page-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: "STSong", serif;
+  color: #4B6A4B;
+  text-align: left; 
+}
+
+.page-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.field-label {
+  font-weight: bolder;
+  color:black;
+  font-size: large;
+}
+
+.field-content {
+  color: #4B6A4B;
+  line-height: 1.8;
+  font-size: medium;
+}
+
+.centered-img {
+  display: block;
+  margin: 24px auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+
+.logo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 200px;
+  height: auto;
+}
