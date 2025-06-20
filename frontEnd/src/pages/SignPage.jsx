@@ -10,10 +10,12 @@ export default function SignPage() {
   const [error, setError] = useState(null)
   const question = state?.question
 
+  const baseUrl = import.meta.env.VITE_API_BASE
+
   if (!question) return <p>请从首页输入问题再来抽签哦～</p>
 
   useEffect(() => {
-    fetch('http://aitell-backend.onrender.com/api/fortune/random') 
+    fetch(`${baseUrl}/api/fortune/random`) 
       .then((res) => {
         if (!res.ok) throw new Error('无法获取签文')
         return res.json()
@@ -35,7 +37,8 @@ export default function SignPage() {
 
   const handleAI = async () => {
     try {
-      const res = await fetch('http://aitell-backend.onrender.com/api/fortune/interpret', {
+
+      const res = await fetch(`${baseUrl}/api/fortune/interpret`,{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
