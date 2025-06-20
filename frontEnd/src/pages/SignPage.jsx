@@ -13,7 +13,7 @@ export default function SignPage() {
   if (!question) return <p>请从首页输入问题再来抽签哦～</p>
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/fortune/random') 
+    fetch('http://aitell-backend.onrender.com/api/fortune/random') 
       .then((res) => {
         if (!res.ok) throw new Error('无法获取签文')
         return res.json()
@@ -35,7 +35,7 @@ export default function SignPage() {
 
   const handleAI = async () => {
     try {
-      const res = await fetch('http://localhost:8080/api/fortune/interpret', {
+      const res = await fetch('http://aitell-backend.onrender.com/api/fortune/interpret', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
